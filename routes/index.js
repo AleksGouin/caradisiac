@@ -82,7 +82,7 @@ async function populate(){
             console.log(error);
         }
         else{
-            console.log(response);
+            //console.log(response);
             console.log("indexation terminée");
         }
     });

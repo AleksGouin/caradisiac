@@ -12,7 +12,7 @@ async function asyncGetModels(){
     modelList.push(index);
     modelList.push(element);
   });
-  console.log(modelList);
+  //console.log(modelList);
 }
 
 async function main(){
@@ -33,7 +33,7 @@ async function main(){
         console.log(error);
     }
     else{
-        console.log(response);
+        // console.log(response);
         console.log("indexation terminée");
     }
   })

@@ -11,10 +11,6 @@ let client = new elasticsearch.Client({
     //log: 'trace'
   });
 
-router.get('/', function(req, res, next) {
-  console.log("Salut");
-  next();
-})
 /*
 class DataComponent extends React.Component {
     constructor(props) {
