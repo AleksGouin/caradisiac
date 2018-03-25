@@ -1,0 +1,23 @@
+{
+  "name": "caradisiac",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "Promise": "^1.0.5",
+    "async": "^2.6.0",
+    "axios": "^0.18.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "elasticsearch": "^14.2.1",
+    "express": "~4.16.0",
+    "hbs": "~4.0.1",
+    "http-errors": "~1.6.2",
+    "line-by-line": "^0.1.6",
+    "morgan": "^1.9.0",
+    "node-car-api": "git+https://github.com/92bondstreet/node-car-api.git",
+    "react": "^16.2.0"
+  }
+}
